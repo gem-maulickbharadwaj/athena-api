@@ -1,0 +1,22 @@
+{
+  "environment": "beta",
+  "project_name": "ATHENA",
+  "report_name": "Athena_API_Report",
+  "sub_id": "test_id",
+  "enter_point": "https://apis.gemecosystem.com/enter-point",
+  "jewel_user1": "tchauhan",
+  "jewel_bridge_token1": "3548cf51-4f28-4949-a8db-bdbb2f3027091673956073987",
+  "glueCode": "com.qa.gemini.stepDefinition",
+  "feature": "src/main/resources/Features",
+  "prod": {
+    "postApi": "https://devapi.geminisolutions.com/gemassessment/authenticate"
+  },
+  "beta": {
+    "postApi": "authenticate",
+    "getAllAssignedTest": "api/getAllAssignedTests",
+    "putUpdatePass": "api/updatePassword",
+    "postForgotPass": "api/forgotPassword",
+    "postRegister": "registerUser",
+    "getUser" : "api/findUser"
+  }
+}
