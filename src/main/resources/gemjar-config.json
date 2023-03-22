@@ -9,7 +9,12 @@
   "glueCode": "com.qa.gemini.stepDefinition",
   "feature": "src/main/resources/Features",
   "prod": {
-    "postApi": "https://devapi.geminisolutions.com/gemassessment/authenticate"
+     "postApi": "authenticate",
+    "getAllAssignedTest": "api/getAllAssignedTests",
+    "putUpdatePass": "api/updatePassword",
+    "postForgotPass": "api/forgotPassword",
+    "postRegister": "registerUser",
+    "getUser" : "api/findUser"
   },
   "beta": {
     "postApi": "authenticate",
