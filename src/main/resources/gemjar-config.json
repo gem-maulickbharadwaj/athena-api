@@ -9,7 +9,7 @@
   "glueCode": "com.qa.gemini.stepDefinition",
   "feature": "src/main/resources/Features",
   "prod": {
-     "postApi": "authenticate",
+    "postApi": "authenticate",
     "getAllAssignedTest": "api/getAllAssignedTests",
     "putUpdatePass": "api/updatePassword",
     "postForgotPass": "api/forgotPassword",
@@ -17,6 +17,14 @@
     "getUser" : "api/findUser"
   },
   "beta": {
+    "postApi": "authenticate",
+    "getAllAssignedTest": "api/getAllAssignedTests",
+    "putUpdatePass": "api/updatePassword",
+    "postForgotPass": "api/forgotPassword",
+    "postRegister": "registerUser",
+    "getUser" : "api/findUser"
+  },
+  "dev":{
     "postApi": "authenticate",
     "getAllAssignedTest": "api/getAllAssignedTests",
     "putUpdatePass": "api/updatePassword",
